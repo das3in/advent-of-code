@@ -115,7 +115,7 @@ func main() {
 		fuel_requirements += calculate_fuel_requirement(module)
 	}
 
-	fmt.Println("Total is: {}", fuel_requirements)
+	fmt.Println("Total is: ", fuel_requirements)
 }
 
 func calculate_fuel_requirement(module int) int {
